@@ -1,0 +1,346 @@
+
+
+.navbar {
+    width: 100%;
+    height: 80px;
+ background-color: hsla(0, 0%, 0%, 0.7);
+    top: 0;
+    left: 0;
+
+  display: flex;
+    flex-direction: row; 
+ justify-content: center;
+}
+
+
+/* FIRST ROW */
+.first-row {
+    width: 55%;
+
+    display: flex;
+    justify-content: space-between;
+
+    margin-left: auto;
+    margin-right: 40px;
+}
+
+
+/* SECOND ROW */
+.second-row {
+    width: 65%;
+
+    display: flex;
+    justify-content: space-between;
+
+    margin-right: auto;
+    margin-left: 40px;
+}
+
+
+/* LINKS */
+.links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 55%;
+    margin-left: auto;
+    margin-right: 40px;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+}
+video {
+    width: 100%;
+}
+.TOURISM {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+}
+.responsibletourism{
+    text-align: center;
+    
+    padding:20px; 
+    justify-content:  space-between;
+}
+.image{
+    display: flex;
+    width:50% ;
+    height:auto;
+    gap: 70px;
+}
+.responsible{
+    display: flex;
+    gap: 120px;
+    
+
+}
+.responsibletourism button{
+background-color: darkblue;
+color :white;
+font-size: 20px;
+padding:20px;
+border: none;
+}
+.culture{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    text-align: center;
+}
+.card img{
+    width: 100%;
+    height:100%;
+    display: block;
+    object-fit:cover;
+}
+.invest{
+    text-align: center;
+    
+    margin: 30px 30px;
+    padding: 50px;
+    padding: 50px;
+
+
+}
+.zippp{
+    text-align: center;
+    
+    padding:20px; 
+    justify-content:  space-between;
+}
+.image2{
+    display: flex;
+    width:50% ;
+    height:auto;
+    gap: 70px;
+}
+.zipline{
+    display: flex;
+    gap: 120px;
+    
+
+}
+.investment-links {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    align-items: end;
+}
+
+.investment-links p {
+    font-size: 14px;
+    margin: 0 0 5px;
+    color: #555;
+}
+
+.investment-links h2 {
+    font-size: 20px;
+    font-weight: normal;
+    margin: 0 0 15px;
+    color: #555;
+}
+
+.investment-image {
+    width: 100%;
+    display: block;
+}
+
+.meet-rwanda {
+    padding: 40px;
+}
+
+.meet-rwanda h2 {
+    font-size: 30px;
+}
+
+.meet-rwanda p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+hr {
+    width: 100px;
+    margin: auto;
+}
+.meet-rwanda{
+    text-align: center;
+}
+.around-kigali {
+    width: 100%;
+}
+
+.kigali-text {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    height: 85px;
+}
+
+.kigali-text p {
+    font-size: 13px;
+    font-weight: bold;
+    margin: 10px 0 5px;
+}
+
+.kigali-text h2 {
+    font-size: 24px;
+    font-weight: normal;
+    color: #555;
+    margin: 0;
+}
+
+.around-kigali img {
+    width: 100%;
+    display: block;
+}
+.sports-partnerships {
+    text-align: center;
+}
+
+.sports-partnerships h2 {
+    font-size: 30px;
+}
+
+.sports-partnerships p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.clipers image  img {
+    display: block;
+    margin: auto;
+}
+.sports-partners {
+    text-align: center;
+}
+
+.sports-partners > h2 {
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.sports-partners > p {
+    max-width: 700px;
+    margin: 0 auto 40px;
+    line-height: 1.6;
+}
+
+.partners {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.partner {
+    text-align: center;
+}
+
+.partner p {
+    font-size: 13px;
+    font-weight: bold;
+    margin: 10px 0 5px;
+}
+
+.partner h2 {
+    font-size: 21px;
+    font-weight: normal;
+    color: #555;
+    margin: 0 0 15px;
+}
+
+.partner img {
+    width: 100%;
+    height: auto;
+    
+    display: block;
+}
+.footer {
+    width: 100%;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* TOP ROW */
+
+.footer-top {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: #17253d;
+}
+
+.footer-menu {
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 70px;
+    border-right: 1px solid #465269;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.footer-menu span:last-child {
+    font-size: 18px;
+}
+
+
+/* BOTTOM ROW */
+
+.footer-bottom {
+    min-height: 65px;
+    background-color: #0c172b;
+    display: flex;
+    align-items: center;
+    padding: 0 150px;
+    gap: 25px;
+}
+
+
+/* LOGO */
+
+.footer-logo h2 {
+    font-size: 16px;
+    line-height: 13px;
+    margin: 0;
+}
+
+
+/* COPYRIGHT */
+
+.copyright {
+    font-size: 11px;
+    white-space: nowrap;
+}
+
+
+/* LINKS */
+
+.footer-links {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-left: auto;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 11px;
+    align-items: center;
+}
+
+
+/* SOCIAL ICONS */
+
+.social-icons {
+    display: flex;
+    gap: 12px;
+    margin-left: 5px;
+}
+
+.social-icons span {
+    font-size: 16px;
+}
